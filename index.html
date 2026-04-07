@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pallavi Singh — Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ───── NAVBAR ───── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">PS<span class="dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ───── HERO ───── -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal"><i class="fa-solid fa-terminal"></i>&nbsp; Available for opportunities</p>
+      <h1 class="hero-name reveal">
+        Pallavi<br/><em>Singh</em>
+      </h1>
+      <div class="hero-title-wrap reveal">
+        <span class="hero-line"></span>
+        <span class="hero-title">Web Developer</span>
+      </div>
+      <p class="hero-intro reveal">
+        I build real-world web applications like support systems,<br/>
+        tribunal systems, and CRL systems.
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <i class="fa-solid fa-arrow-down"></i>
+    </div>
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+  </section>
+
+  <!-- ───── ABOUT ───── -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label reveal"><span>01</span> About Me</div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-heading">Crafting digital<br/><em>experiences</em> with purpose.</h2>
+          <p>
+            I'm Pallavi Singh, a web developer with hands-on internship experience building production-grade systems. Over 3–4 months, I've contributed to full-stack projects spanning ticketing platforms, legal management tools, and financial calculators — learning how to write clean, maintainable code that actually ships.
+          </p>
+          <p>
+            I thrive at the intersection of problem-solving and design, turning complex requirements into intuitive web interfaces. Currently seeking full-time opportunities where I can grow, contribute, and make an impact from day one.
+          </p>
+          <div class="about-facts">
+            <div class="fact">
+              <span class="fact-num">4+</span>
+              <span class="fact-label">Projects Delivered</span>
+            </div>
+            <div class="fact">
+              <span class="fact-num">6</span>
+              <span class="fact-label">Months Experience</span>
+            </div>
+            <div class="fact">
+              <span class="fact-num">5</span>
+              <span class="fact-label">Technologies</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image-wrap reveal">
+          <div class="about-image-box">
+            <div class="about-image-placeholder">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="about-badge">
+              <i class="fa-solid fa-star"></i> Open to Work
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── SKILLS ───── -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label reveal"><span>02</span> Skills</div>
+      <h2 class="section-heading centered reveal">My Tech <em>Stack</em></h2>
+      <p class="section-sub reveal">Technologies I work with to build robust web applications.</p>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+          <h3>HTML5</h3>
+          <p>Semantic markup, accessibility, SEO-friendly structure, and modern HTML APIs.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+          <span class="skill-percent">90%</span>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div>
+          <h3>CSS3</h3>
+          <p>Responsive layouts, Flexbox, Grid, animations, and cross-browser styling.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+          <span class="skill-percent">85%</span>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+          <h3>JavaScript</h3>
+          <p>DOM manipulation, async/await, event handling, and interactive UI development.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="75%"></div></div>
+          <span class="skill-percent">75%</span>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fa-brands fa-php"></i></div>
+          <h3>PHP</h3>
+          <p>Server-side scripting, form handling, session management, and backend logic.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="80%"></div></div>
+          <span class="skill-percent">80%</span>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+          <h3>MySQL</h3>
+          <p>Database design, complex queries, joins, stored procedures, and data management.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="78%"></div></div>
+          <span class="skill-percent">78%</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── PROJECTS ───── -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label reveal"><span>03</span> Projects</div>
+      <h2 class="section-heading centered reveal">Things I've <em>Built</em></h2>
+      <p class="section-sub reveal">Real-world systems designed and developed during my internship.</p>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-number">01</div>
+          <div class="project-icon"><i class="fa-solid fa-headset"></i></div>
+          <h3>Support Ticket System</h3>
+          <p>A full-featured helpdesk application enabling users to raise, track, and resolve support tickets. Includes role-based access for admins, agents, and end-users with real-time status updates.</p>
+          <div class="project-tags">
+            <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>HTML/CSS</span>
+          </div>
+          <a href="#" class="btn btn-project">
+            View Project <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-number">02</div>
+          <div class="project-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+          <h3>Matrimonial System</h3>
+          <p>A comprehensive case management platform for legal tribunals. Manages hearings, case assignments, document uploads, and adjudication workflows with a secure admin dashboard.</p>
+          <div class="project-tags">
+            <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>CSS3</span>
+          </div>
+          <a href="#" class="btn btn-project">
+            View Project <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-number">03</div>
+          <div class="project-icon"><i class="fa-solid fa-calculator"></i></div>
+          <h3>customer relationship management system</h3>
+          <p>An interactive financial tool that helps employees and employers compute pre-tax deductions, net salary, and tax liabilities based on configurable income slabs and exemptions.</p>
+          <div class="project-tags">
+            <span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>PHP</span>
+          </div>
+          <a href="#" class="btn btn-project">
+            View Project <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-number">04</div>
+          <div class="project-icon"><i class="fa-solid fa-file-contract"></i></div>
+          <h3>CRL System</h3>
+          <p>Visitor management system , verification, and tracking of CRL documents for financial and legal institutions with audit trail support.</p>
+          <div class="project-tags">
+            <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>HTML/CSS</span>
+          </div>
+          <a href="#" class="btn btn-project">
+            View Project <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── CONTACT ───── -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label reveal"><span>04</span> Contact</div>
+      <h2 class="section-heading centered reveal">Let's <em>Connect</em></h2>
+      <p class="section-sub reveal">Open to full-time roles, internships, and freelance opportunities.</p>
+      <div class="contact-grid">
+        <div class="contact-card reveal">
+          <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+          <h4>Email</h4>
+          <a href="mailto:pallavi@example.com">pallavisingh8604@gmail.com</a>
+        </div>
+        <div class="contact-card reveal">
+          <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+          <h4>Phone</h4>
+          <a href="tel:+7045393455">7045393455</a>
+        </div>
+        <div class="contact-card reveal">
+          <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+          <h4>LinkedIn</h4>
+          <a href="https:www.linkedin.com/in/pallavi-singh-625347251?utm" target="_blank">https:www.linkdin.com/in/pallavi-singh</a>
+        </div>
+      </div>
+      <div class="contact-cta reveal">
+        <a href="mailto:pallavisingh8604@gmail.com" class="btn btn-primary btn-large">
+          <i class="fa-solid fa-paper-plane"></i> Say Hello
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── FOOTER ───── -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="nav-logo">PS<span class="dot">.</span></span>
+      <p>© 2026 Pallavi Singh. Designed & built with <i class="fa-solid fa-heart"></i></p>
+      <div class="footer-socials">
+        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
